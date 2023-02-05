@@ -1,0 +1,22 @@
+{
+  "name": "pinterest_sample_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f @cucumber/pretty-formatter -f json:Features/Reports/cucumber_report.json Features/LoginPage/*.feature",
+    "report": "node Features/Reports/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.8.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

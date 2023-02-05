@@ -1,0 +1,80 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1957041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is at login page",
+            "match": {
+              "location": "Features/LoginPage/LoginPage_StepDefinition.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5823821750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user logs in using valid credentials",
+            "match": {
+              "location": "Features/LoginPage/LoginPage_StepDefinition.js:22"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 234999,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'emailField')\n    at World.<anonymous> (/Users/harvysanpedro/Development/Automation Sample/Pinterest_Sample_Automation/Features/LoginPage/LoginPage_StepDefinition.js:23:22)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user is successfully logged in",
+            "match": {
+              "location": "Features/LoginPage/LoginPage_StepDefinition.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "Features/LoginPage/LoginPage.feature"
+  }
+]
